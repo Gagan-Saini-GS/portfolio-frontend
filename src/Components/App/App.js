@@ -17,6 +17,7 @@ function App() {
           <Route path="/" element={<Navigate to={"/home"} />} />
           {/* <Route path="/home" element={<div>Home Page</div>} /> */}
           <Route path="/home" element={<Home />} />
+          <Route path="/wish" element={<div>Wish container is added</div>} />
         </Routes>
       </div>
     </Router>

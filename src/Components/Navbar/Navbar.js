@@ -10,9 +10,10 @@ export default function Navbar() {
         <Link className="menu-item home" to={"/home"}>
           Home
         </Link>
-        {/* <Link className="menu-item" to={"/wish"}>
+        <Link className="menu-item" to={"/wish"}>
           Wish!
         </Link>
+        {/* 
         <Link className="menu-item" to={"/thoughts"}>
           Thoughts
         </Link>
