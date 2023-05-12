@@ -1,0 +1,49 @@
+.input-wish-container {
+  width: 35%;
+  margin: 20px 25px 60px;
+}
+
+.input-item {
+  width: 90%;
+  height: 250px;
+  display: block;
+  border: none;
+  outline: none;
+  background-color: var(--background);
+  color: var(--black);
+  padding: 15px;
+  margin: 0px auto 10px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 15px;
+  box-shadow: inset 3px 6px 12px rgba(0, 0, 0, 0.4);
+  transition: all 250ms linear;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.input-item:focus {
+  left: 30px;
+  transform: scaleX(1.05);
+  box-shadow: 15px 15px 100px var(--background),
+    -15px -15px 100px var(--boneWhite);
+}
+
+.input-wish-container input {
+  height: 20px;
+}
+
+.wish-btn {
+  display: block;
+  width: 95%;
+  margin: 5px auto;
+  padding: 5px;
+  border: 2px solid var(--black);
+  border-radius: 10px;
+  color: var(--red);
+  background-color: var(--yellow);
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}

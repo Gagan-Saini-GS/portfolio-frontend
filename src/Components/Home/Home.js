@@ -8,7 +8,6 @@ export default function Home() {
 
   return (
     <div className="home-container">
-      {/* This is home container. */}
       <div className="top-container">
         <Gallery />
         <div className="name">My Family</div>

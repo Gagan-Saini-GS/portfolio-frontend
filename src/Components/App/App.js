@@ -7,6 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Home from "../Home/Home";
+import Wish from "../Wish/Wish";
 
 function App() {
   return (
@@ -17,7 +18,16 @@ function App() {
           <Route path="/" element={<Navigate to={"/home"} />} />
           {/* <Route path="/home" element={<div>Home Page</div>} /> */}
           <Route path="/home" element={<Home />} />
-          <Route path="/wish" element={<div>Wish container is added</div>} />
+          <Route path="/wish" element={<Wish />} />
+          <Route
+            path="/thoughts"
+            element={
+              <div>
+                This page is designed for life learning lessons from my dad.
+              </div>
+            }
+          />
+          <Route path="/about" element={<div>This is about page.</div>} />
         </Routes>
       </div>
     </Router>

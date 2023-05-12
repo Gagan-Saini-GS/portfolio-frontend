@@ -1,0 +1,59 @@
+.thought-card-container {
+  width: 20%;
+  height: 350px;
+  background-color: var(--black);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.thought-card-container .content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: var(--offWhite);
+  z-index: 10;
+  font-size: 1.5rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.thought-card-container::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 150%;
+  background-image: linear-gradient(180deg, var(--red), var(--yellow));
+  animation: imgRotation 5s linear infinite;
+  transition: all 0.2s linear;
+}
+
+.thought-card-container::after {
+  content: "";
+  position: absolute;
+  background-color: var(--black);
+  inset: 5px;
+  border-radius: 10px;
+}
+
+@keyframes imgRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.username {
+  text-align: right;
+  font-size: 1rem;
+  color: var(--yellow);
+}

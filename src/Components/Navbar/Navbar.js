@@ -13,13 +13,12 @@ export default function Navbar() {
         <Link className="menu-item" to={"/wish"}>
           Wish!
         </Link>
-        {/* 
         <Link className="menu-item" to={"/thoughts"}>
           Thoughts
         </Link>
         <Link className="menu-item" to={"/about"}>
           About
-        </Link> */}
+        </Link>
       </section>
     </nav>
   );
