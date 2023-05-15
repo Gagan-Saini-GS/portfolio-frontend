@@ -8,7 +8,7 @@
 }
 
 .timer-item {
-  width: 150px;
+  width: 20%;
   height: 150px;
   text-align: center;
   font-size: 1.25rem;
@@ -37,4 +37,53 @@
   font-size: 3.5rem;
   font-weight: 700;
   margin-top: 15px;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .timer-container {
+    width: 90%;
+    padding: 0px;
+  }
+
+  .timer-item {
+    padding: 2px;
+    height: 4rem;
+  }
+
+  .timer-heading {
+    font-size: 0.5rem;
+    padding-bottom: 0px;
+  }
+
+  .timer-data {
+    font-size: 1.5rem;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .timer-container {
+    width: 90%;
+  }
+
+  .timer-item {
+    padding: 2px;
+    height: 5rem;
+  }
+
+  .timer-heading {
+    font-size: 0.75rem;
+    padding-bottom: 0px;
+  }
+
+  .timer-data {
+    font-size: 2rem;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .timer-container {
+    width: 90%;
+  }
 }

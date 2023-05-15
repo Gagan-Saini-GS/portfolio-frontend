@@ -1,7 +1,7 @@
 import React from "react";
 import "./WishCard.css";
 
-export default function ThoughtCard1(props) {
+export default function WishCard1(props) {
   const wish = props.content;
   return (
     <div className="thought-card-container">

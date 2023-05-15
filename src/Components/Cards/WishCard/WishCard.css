@@ -57,3 +57,24 @@
   font-size: 1rem;
   color: var(--yellow);
 }
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .thought-card-container {
+    width: 75%;
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .thought-card-container {
+    width: 40%;
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .thought-card-container {
+    width: 26%;
+    margin: 10px auto;
+  }
+}

@@ -1,22 +1,17 @@
 import React from "react";
 import "./Home.css";
 import Gallery from "../Gallery/Gallery";
-import Timer from "../Timer/Timer";
+import About from "../About/About";
+import Border from "../Border/Border";
 
 export default function Home() {
-  const year = new Date().getFullYear();
-
   return (
     <div className="home-container">
-      <div className="top-container">
-        <Gallery />
+      <About />
+      <div className="home-top-container">
         <div className="name">My Family</div>
-      </div>
-      <div className="timer-section">
-        <div className="wish-reminder">
-          Don't Forgot to wish my Papa on his birthday, 16 May {year}
-        </div>
-        <Timer />
+        <Gallery />
+        <Border />
       </div>
     </div>
   );

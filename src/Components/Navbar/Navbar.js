@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="nav-container">
-      <section className="logo-section">Gagan Saini</section>
+      <section className="logo-section">Anand</section>
       <section className="menu-section">
         <Link className="menu-item home" to={"/home"}>
           Home
@@ -13,12 +13,12 @@ export default function Navbar() {
         <Link className="menu-item" to={"/wish"}>
           Wish!
         </Link>
-        <Link className="menu-item" to={"/thoughts"}>
+        {/* <Link className="menu-item" to={"/thoughts"}>
           Thoughts
-        </Link>
-        <Link className="menu-item" to={"/about"}>
+        </Link> */}
+        {/* <Link className="menu-item" to={"/about"}>
           About
-        </Link>
+        </Link> */}
       </section>
     </nav>
   );

@@ -47,3 +47,36 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .input-wish-container {
+    width: 90%;
+    margin: 20px auto 60px;
+  }
+
+  .input-item:focus {
+    left: 10px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .input-wish-container {
+    width: 75%;
+    margin: 20px auto 60px;
+  }
+
+  .input-item:focus {
+    left: 15px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .input-wish-container {
+    width: 80%;
+    margin: 20px auto 60px;
+  }
+
+  .input-item:focus {
+    left: 20px;
+  }
+}

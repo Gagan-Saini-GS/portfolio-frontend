@@ -1,0 +1,5 @@
+.border-container {
+  width: 10%;
+  margin: 20px auto;
+  border-top: 10px dotted var(--background);
+}
