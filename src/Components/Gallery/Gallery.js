@@ -36,7 +36,11 @@ export default function Gallery() {
             <img className="img5" src="/images/11.jpeg" alt="Image of my Dad" />
           </div>
           <div className="img-item img-item-6">
-            <img className="img6" src="/images/5.jpeg" alt="Image of my Dad" />
+            <img
+              className="img6"
+              src="/images/dad-school.jpeg"
+              alt="Image of my Dad"
+            />
           </div>
         </div>
       </div>
