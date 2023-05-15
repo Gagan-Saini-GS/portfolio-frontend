@@ -10,6 +10,7 @@ import Home from "../Home/Home";
 import Wish from "../Wish/Wish";
 import Timer from "../Timer/Timer";
 import About from "../About/About";
+import Footer from "../Footer/Footer";
 
 function App() {
   const year = new Date().getFullYear();
@@ -29,6 +30,7 @@ function App() {
           </div>
           <Timer />
         </div>
+        <Footer />
       </div>
     </Router>
   );
