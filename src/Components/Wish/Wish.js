@@ -18,7 +18,7 @@ export default function Wish() {
       })
       .then((response) => {
         // console.log(response.data.wishes);
-        response.data.wishes.reverse();
+        // response.data.wishes.reverse();
         setWishes(response.data.wishes);
       });
   }
